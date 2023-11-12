@@ -57,5 +57,4 @@ int x = y.intValue();
   - Gọi trực tiếp hàm dựng **(constructor)**của lớp cha gần nhất.
   - Gọi trực tiếp thuộc tính **(field)**của lớp cha gần nhất.
   - Gọi trực tiếp phương thức **(method)**của lớp cha gần nhất.
-> Ví dụ 1: Gọi trực tiếp constructor của lớp cha gần nhất
 
