@@ -55,7 +55,7 @@
 
   - **Commit và Push thay đổi**: Push (đẩy) nhánh của bạn cùng với các thay đổi lên Remote Repository của bạn trên GitHub.
     - Mở Terminal và sử dụng lệnh git add . để thêm các thay đổi vào danh sách commit.
-    - Sử dụng lệnh **git commit -m "Mô tả commit"**để commit các thay đổi đã thêm.
+    - Sử dụng lệnh **git commit -m "Mô tả commit"** để commit các thay đổi đã thêm.
     - Sử dụng lệnh **git push origin [tên_nhánh]** để đẩy thay đổi lên repository của bạn trên GitHub.
   
   - **Tạo Pull Request**: Trên trang GitHub của Repository fork của bạn, bạn sẽ thấy một nút "New pull request" hoặc tương tự. Nhấp vào nút đó để chuyển đến trang tạo Pull Request.
