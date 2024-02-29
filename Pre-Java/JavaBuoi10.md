@@ -243,7 +243,10 @@ class Test {
             Assertions.assertEquals(5.0, result, 0.0001);
         }
     }
-    - Trong ví dụ trên, chúng ta tạo ra một lớp Calculator để thực hiện các phép tính đơn giản như cộng và chia. Tiếp theo, chúng ta tạo một lớp CalculatorTest để viết các unit tests cho lớp Calculator. Hai phương thức kiểm thử testAddition() và testDivision() được chú thích bằng @Test để đánh dấu chúng là các phương thức kiểm thử. Trong các phương thức kiểm thử này, chúng ta sử dụng các phương thức từ lớp Assertions của JUnit để kiểm tra kết quả của các phép tính.
+    - Trong ví dụ trên, chúng ta tạo ra một lớp Calculator để thực hiện các phép tính đơn giản như cộng và chia.
+    Tiếp theo, chúng ta tạo một lớp CalculatorTest để viết các unit tests cho lớp Calculator.
+    Hai phương thức kiểm thử testAddition() và testDivision() được chú thích bằng @Test để đánh dấu chúng là các phương thức kiểm thử.
+    Trong các phương thức kiểm thử này, chúng ta sử dụng các phương thức từ lớp Assertions của JUnit để kiểm tra kết quả của các phép tính.
 ```
 - Tầm quan trọng của unit test
 - Đảm bảo chất lượng: Unit testing giúp đảm bảo chất lượng của mã nguồn bằng cách kiểm tra từng đơn vị mã nguồn độc lập. Nó cho phép kiểm tra tính chính xác và đáng tin cậy của các phần riêng lẻ trong môi trường kiểm thử điều kiện kiểm soát.
