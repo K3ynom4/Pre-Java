@@ -14,9 +14,9 @@ Tầm quan trọng của việc viết Unit test
           - 2 abstract class: Reader và Writer
 
 - Đọc ghi 1 file:
-    Bước 1: Tạo đối tượng luồng và liên kết với nguồn dữ liệu.
-    Bước 2: Thao tác dữ liệu (đọc hoặc ghi hoặc cả hai).
-    Bước 3: Đóng luồng.
+    - Bước 1: Tạo đối tượng luồng và liên kết với nguồn dữ liệu.
+    - Bước 2: Thao tác dữ liệu (đọc hoặc ghi hoặc cả hai).
+    - Bước 3: Đóng luồng.
 - Tạo file
 ```Java
     import java.io.File;  // Import the File class
