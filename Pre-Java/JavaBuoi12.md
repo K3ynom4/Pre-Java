@@ -32,9 +32,9 @@ Gói javax.swing cung cấp các lớp cho java swing API như JButton, JTextFie
         }
     }
     ```
-    Kết quả:
     ![alt text](image-27.png)
-    **Xử lý khi JFrame bị đóng**
+
+  **Xử lý khi JFrame bị đóng**
     Khi một JFrame được khởi tạo, cho đến khi người dùng tắt JFrame này thì chúng ta có thể định nghĩa các hành động tương ứng mà chúng ta muốn trong giai đoạn này. Java Swing cung cấp 4 hằng số tương ứng với 4 loại hành động sau khi một JFrame bị đóng. Các hằng số này được định nghĩa trong trong avax.swing.WindowsConstants:
 
       - **DO_NOTHING_ON_CLOSE**: Không làm thêm bất cứ điều gì khi JFrame bị đóng
