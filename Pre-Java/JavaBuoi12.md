@@ -35,11 +35,12 @@ Gói javax.swing cung cấp các lớp cho java swing API như JButton, JTextFie
     ![alt text](image-27.png)
 
   **Xử lý khi JFrame bị đóng**
-  Khi một JFrame được khởi tạo, cho đến khi người dùng tắt JFrame này thì chúng ta có thể định nghĩa các hành động tương ứng mà chúng ta muốn trong giai đoạn này. Java Swing cung cấp 4 hằng số tương ứng với 4 loại hành động sau khi một JFrame bị đóng. Các hằng số này được định nghĩa trong trong avax.swing.WindowsConstants:
+  - Khi một JFrame được khởi tạo, cho đến khi người dùng tắt JFrame này thì chúng ta có thể định nghĩa các hành động tương ứng mà chúng ta muốn trong giai đoạn này. Java Swing cung cấp 4 hằng số tương ứng với 4 loại hành động sau khi một JFrame bị đóng. Các hằng số này được định nghĩa trong trong avax.swing.WindowsConstants:
     - **DO_NOTHING_ON_CLOSE**: Không làm thêm bất cứ điều gì khi JFrame bị đóng
     - **HIDE_ON_CLOSE**: JFrame sẽ bị ẩn đi khi người dùng đóng nó lại. Chương trình vẫn sẽ hoạt động bình thường trong khi JFrame này bị ẩn. Đây là một hành động mặc định của JFrame.
     - **DISPOSE_ON_CLOSE**: Sau khi bị đóng lại, nó đồng thời sẽ bị dọn dẹp rác, các tài nguyên được JFrame này sử dụng sẽ bị thu hồi nhường chỗ cho những nơi khác sử dụng.
-    - **EXIT_ON_CLOSE**: Sau khi JFrame bị đóng, chương trình cũng sẽ tắt theo. Chúng ta có thể đặt hành vi đóng mặc định của JFrame bằng cách chuyển một trong bốn hằng số vào phương thức setDefaultCloseOperation () của nó
+    - **EXIT_ON_CLOSE**: Sau khi JFrame bị đóng, chương trình cũng sẽ tắt theo.
+  - Chúng ta có thể đặt hành vi đóng mặc định của JFrame bằng cách chuyển một trong bốn hằng số vào phương thức setDefaultCloseOperation () của nó
 ### JButton
 - JButton là một thành phần trong thư viện Java Swing, đại diện cho một nút hoặc một nút nhấn trong giao diện người dùng đồ họa (GUI). Khi người dùng nhấn vào JButton, bạn có thể xử lý sự kiện nhấn nút bằng cách thêm một ActionListener để thực hiện các hành động tương ứng.
 ```java
